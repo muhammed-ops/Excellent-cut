@@ -17,11 +17,14 @@ nav {
     box-sizing: border-box;
     overflow: hidden;
     position: sticky;
-    z-index: 3;
+    z-index: 2;
     top: 0;
 }
 header {
-    height: 20px;
+    height: 30px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
 }
 
 nav ul li {
@@ -76,6 +79,7 @@ nav ul li:hover{
     transform: 0.5s;
     border-bottom-right-radius: 25px;
     z-index: 2;
+    box-shadow: 2px 2px 10px 3px black;
 }
 .menudetails ul li a {
     font-family: 'Alkatra',cursive, 'Times New Roman', Times, serif;
@@ -105,8 +109,8 @@ main img {
 }
 .haircuts{
     box-sizing: border-box;
-    width: 100vw;
-    padding: 0px 10px 0px 40px;
+    width: 95vw;
+    padding: 0px 10px 0px 55px;
     height: fit-content;
 }
 .haircutheading {
@@ -132,7 +136,7 @@ main img {
     overflow: hidden;
     display: inline-block;
     height: 350px;
-    width: 30%;
+    width: 31%;
     border: 2px solid black;
     border-radius: 40px;
 
@@ -189,15 +193,25 @@ main img {
     } 
 }
 
+@media screen and (max-width: 1245px) {
+    .haircuts div{
+        width: 27%;
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width: 1185px) {
+    .haircuts div{
+        width: 23%;
+        margin-left: 50px;
+    }
+}
+
 @media screen and (max-width: 900px) {
     .haircuts {
         width: 100vw;
         padding: 10px;
     }
-    .haircuts div{
-        width: 45%;
-        margin-left: 13px;
-    }
+    
 }
 @media screen and (max-width : 580px){
     .haircutheading {
@@ -205,6 +219,7 @@ main img {
     }
     .haircuts div{
         width: 95%;
+        margin-left: 10px;
     }
 }
 
