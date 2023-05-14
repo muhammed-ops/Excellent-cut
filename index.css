@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
-html body {
+html ,body {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
+
 nav {
     width: 100%;
     min-height: 60px;
@@ -16,15 +17,17 @@ nav {
     box-sizing: border-box;
     overflow: hidden;
     position: sticky;
-    z-index: 2;
+    z-index: 3;
     top: 0;
+}
+header {
+    height: 20px;
 }
 
 nav ul li {
     margin-left: 20px;
     list-style: none;
     display: inline-block;
-    font-family: 'Alkatra', Arial, Helvetica, sans-serif;
     transition: 0.3s;
 }
 nav ul {
@@ -49,6 +52,7 @@ nav ul li a {
     text-decoration: none;
     background-color: white;
     padding: 0px 12px 0px 12px;
+    font-family: 'Alkatra', cursive;
     border-radius: 50px;
     transition: 0.5;
     font-size: 23px;
@@ -71,9 +75,10 @@ nav ul li:hover{
     width: 60%;
     transform: 0.5s;
     border-bottom-right-radius: 25px;
+    z-index: 2;
 }
 .menudetails ul li a {
-    font-family: 'Alkatra', cursive;
+    font-family: 'Alkatra',cursive;
     white-space: nowrap;
     color: white;
     font-size: 25px;
@@ -84,7 +89,57 @@ nav ul li:hover{
     margin-left: -25px;
     line-height: 2.3;
 }
+ main {
+    width: 100%;
+    height: 500px;
+    box-sizing: border-box;
+    border-bottom: 2px solid black;
+    border-radius: 50px;
+    position: relative;
+}
+main img {
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    filter: blur(1px);
+}
+.haircuts{
+    box-sizing: border-box;
+    width: 100vw;
+    padding: 0px 10px 0px 40px;
+    height: fit-content;
+}
+.haircutheading {
+    word-spacing: 3px;
+    letter-spacing: 5px;
+    font-size: 60px;
+    text-decoration: underline;
+    font-weight: 800;
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    margin-bottom: -5px;
+    margin-top: -2px;
+}
+.haircuts img {
+    position: absolute;
+    width: 100%;
+    height: 350px;
+    transition: 0.3s;
+}
+.haircuts div {
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    height: 350px;
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 40px;
 
+}
+.haircuts img:hover {
+    transform: scale(1.2);
+}
 @media screen and (max-width : 1120px) {
     nav ul li a{
         font-size: 15px;
@@ -128,6 +183,25 @@ nav ul li:hover{
         position: relative;
         left: -5px;
     } 
+}
+
+@media screen and (max-width: 900px) {
+    .haircuts {
+        width: 100vw;
+        padding: 10px;
+    }
+    .haircuts div{
+        width: 45%;
+        margin-left: 13px;
+    }
+}
+@media screen and (max-width : 580px){
+    .haircutheading {
+        font-size: 30px;
+    }
+    .haircuts div{
+        width: 95%;
+    }
 }
 
 
