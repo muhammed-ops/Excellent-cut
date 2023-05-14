@@ -34,7 +34,7 @@ nav ul {
 nav p {
     position: absolute;
     left: 65px;
-    font-family: 'Satisfy', cursive;
+    font-family: 'Satisfy', Arial, Helvetica, sans-serif;
     font-size: 45px;
     font-weight: 700;
     letter-spacing: 7px;
