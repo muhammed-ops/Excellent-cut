@@ -156,6 +156,9 @@ main img {
     .menudetails {
      display: none;   
     }
+    .menudetails ul li  a {
+        font-family: 'Courier New', Courier, monospace;
+    }
 }
 
 @media screen and (max-width: 925px) {
