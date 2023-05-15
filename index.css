@@ -360,6 +360,9 @@ footer .openingdays ul li {
         justify-content: center;
         align-items: center;
     }
+    footer .openingdays ul li{
+        font-size: 15px;
+    }
     footer div{
         width: 80%;
     }
