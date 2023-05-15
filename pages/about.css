@@ -45,7 +45,7 @@ body{
 }
 .about button{
     position: absolute;
-    bottom: 10%;
+    bottom: 5%;
     border: none;
     padding: 5px 10px;
     background-color: black;
