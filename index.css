@@ -75,7 +75,7 @@ nav ul li:hover{
     position: relative;
     top: -15px;
     background-color: black;
-    width: 70%;
+    width: 85%;
     transform: 0.5s;
     border-bottom-right-radius: 25px;
     z-index: 2;
@@ -211,7 +211,7 @@ footer .contact p span {
     top: -5px;
     left: 3px;
 }
-footer .contact li{
+footer .contact ul li{
     list-style: square;
     margin-top: -25px;
     font-weight: 400;
@@ -347,7 +347,7 @@ footer .openingdays ul li {
         line-height: 1;
     }
     
-    footer .contact  li{
+    footer .contact ul li{
         margin-left: -15px;
     }
     
