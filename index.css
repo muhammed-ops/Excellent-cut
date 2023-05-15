@@ -186,7 +186,6 @@ footer .address p:nth-of-type(1){
 footer .address p:nth-of-type(2){
     font-family: 'Rowdies', cursive;
     font-size: 18px;
-
 }
 footer .address p span{
     position: relative;
@@ -376,6 +375,10 @@ footer .openingdays ul li {
 
     footer .openingdays ul li {
         font-family: 'Merriweather', serif;
+    }
+    footer .openingdays p {
+        position: relative;
+        left: 30px;
     }
 
 }
