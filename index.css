@@ -363,6 +363,18 @@ footer .openingdays ul li {
     footer div{
         width: 80%;
     }
+    footer .address p:nth-of-type(2){
+        font-family: 'Merriweather', serif;
+        ;
+    }
+    footer .contact li {
+        font-family: 'Merriweather', serif;
+    }
+
+    footer .openingdays ul li {
+        font-family: 'Merriweather', serif;
+    }
+
 }
 
 
