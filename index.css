@@ -153,6 +153,34 @@ main img {
 .haircuts img:hover {
     transform: scale(1.2);
 }
+.prices{
+    margin: 10px auto;
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 10px 2px gray;
+}
+.prices p:nth-of-type(1){
+    text-decoration: underline;
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: -10px;
+
+}
+.prices p:nth-of-type(2){
+    font-size: 25px;
+    font-weight: 300;
+    font-family: 'Merriweather', serif;
+
+}
 footer {
     width: 100%;
     padding: 30px;

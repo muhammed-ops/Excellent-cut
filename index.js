@@ -17,3 +17,12 @@ const showMenudetails = () =>{
 }
 
 icon.addEventListener('click', showMenudetails )
+
+const prices = document.querySelector('.menudetails .price')
+
+
+prices.addEventListener('click', ()=>{
+    menuDetails.style.display = 'none';
+    icon.setAttribute('name', 'options-outline');
+
+})
